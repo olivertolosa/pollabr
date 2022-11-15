@@ -1,0 +1,5 @@
+<div class="row-gray even" data-pid="1" data-eid="2059524" data-type="evt" data-esd="20180620100000"> <div class="min"> FT </div> <div class="ply tright name"> Sweden </div> <div class="sco"> <a href="/worldcup/match/?match=1-2059524">1 - 0</a> </div> <div class="ply name"> Switzerland </div> </div> <div class="row row-tall mt4"> <div class="clear"> <div class="left"> <a href="/worldcup/"><strong>World Cup</strong></a> - 
+
+
+
+
