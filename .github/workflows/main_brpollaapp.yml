@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'brpollaapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BC0B6EC456E9492B8567F1C5B41646F9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_97B49435D9A64CC9B622704294F12DFF }}
           package: .
