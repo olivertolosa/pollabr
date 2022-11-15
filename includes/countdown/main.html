@@ -1,0 +1,40 @@
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="attributes.js" charset="utf-8"></script>
+    <script type="text/javascript" src="iCal.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+<body onload="load();">
+<table>
+<tr>
+   <td>
+    <div id="front">
+        <div id="event-label">A este mundial le quedan:</div>
+        <img id="frontImg" src="Parts/Images/front.png" alt="">
+    </div>
+   <tr>
+      <td>
+         <table style="border:0px solid; background: url(Parts/Images/back.png) no-repeat 0 0;background-size:100% 120%">
+            <tr>
+               <td width="10%">&nbsp;
+               <td style="border:0px solid;"><div id="remaining-days">0</div>
+               <td><div id="remaining-hours">00</div>
+               <td><div id="remaining-minutes">00</div>
+               <td><div id="remaining-seconds">00</div>
+               <td width="10%">&nbsp;
+            <tr>
+               <td width="10%">&nbsp;
+               <td><div id="label-days">Dias</div>
+               <td><div id="label-hours">Horas</div>
+               <td><div id="label-minutes">Minutos</div>
+               <td><div id="label-seconds">Segundos</div>
+               <td width="10 %">&nbsp;
+         </table>
+</table>
+
+        <div id="info"></div>
+    <div id="back">
+        <div id="done"></div>
+    </div>
+</table>
+</body>
