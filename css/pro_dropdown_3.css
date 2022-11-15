@@ -1,0 +1,257 @@
+/* ================================================================
+This copyright notice must be kept untouched in the stylesheet at
+all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menu/pro_dropdown_3.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any
+way to fit your requirements.
+=================================================================== */
+
+/*//.preload1 {background: url(three_0a.gif);}*/
+.preload1 {
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#2E2626), to(#0D0909));
+    background-image: -webkit-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -moz-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -ms-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -o-linear-gradient(top, #2E2626, #0D0909);
+    background-image: linear-gradient(top, #2E2626, #0D0909);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;       */
+    background-color:#2E2626;
+/*    text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+}
+/*.preload2 {background: url(three_1a.gif);}*/
+.preload2 {
+    background-color:#2E2626;
+/*    background-image: -webkit-gradient(linear, left top, left bottom, from(#2E2626), to(#0D0909));
+    background-image: -webkit-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -moz-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -ms-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -o-linear-gradient(top, #2E2626, #0D0909);
+    background-image: linear-gradient(top, #2E2626, #0D0909);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;*/
+/*    text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+}
+
+/*Barra de fondo*/
+#nav {padding:0; margin:0; list-style:none; height:38px;
+/*background:#fff url(three_0.gif) repeat-x;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2E2626), to(#0D0909));
+    background-image: -webkit-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -moz-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -ms-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -o-linear-gradient(top, #2E2626, #0D0909);
+    background-image: linear-gradient(top, #2E2626, #0D0909);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+        background-color:#2E2626;
+position:relative; z-index:500; font: normal 14px Arial, Verdana, sans-serif;}
+
+#nav li.top {display:block; float:left;}
+
+ /*Color entre los items del menu*/
+#nav li a.top_link {	display:block;
+	float:left;
+	height:35px;
+	line-height:33px;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	padding:0 0 0 12px;
+	cursor:pointer;
+/*background: url(three_0.gif);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2E2626), to(#0D0909));
+    background-image: -webkit-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -moz-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -ms-linear-gradient(top, #2E2626, #0D0909);
+    background-image: -o-linear-gradient(top, #2E2626, #0D0909);
+    background-image: linear-gradient(top, #2E2626, #0D0909);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+        background-color:#2E2626;
+}
+
+/*items menu*/
+#nav li a.top_link span {	float:left;
+	display:block;
+	padding:12px 24px 12px 12px;
+	height:12px;
+    color: #FFFFFF;
+    font: normal 14px Arial, Verdana, sans-serif;
+    vertical-align:text-top;
+}
+
+/*items con menu*/
+#nav li a.top_link span.down {float:left; display:block; padding:0 24px 0 12px; height:35px;
+/*//background: url(three_0a.gif) no-repeat right top;*/
+    background: url(../imagenes/arrow_down.png) 95% 30% no-repeat;
+    background-size:20px 16px;
+    border-top: none;
+ 	padding:12px 24px 12px 12px;
+}
+
+/*hover items con submenu*/
+#nav li:hover a.top_link span.down {
+/**background:url(three_1a.gif) no-repeat right top;*/
+/*	    background-image: -webkit-gradient(linear, left top, left bottom, from(#0D0909), to(#5E5A5A));
+    background-image: -webkit-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -moz-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -ms-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -o-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: linear-gradient(top, #0D0909, #5E5A5A);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+    padding-bottom:3px;
+    background: url(../imagenes/arrow_down.png) 95% 35% no-repeat;
+    background-size:20px 16px;
+    background-color:#2E2626;
+}
+
+/* Color enter los items del menu - Hover*/
+#nav li:hover a.top_link {color:#fff;
+/*/background: url(three_1.gif) no-repeat;*/
+/*    background-image: -webkit-gradient(linear, left top, left bottom, from(#0D0909), to(#5E5A5A));
+    background-image: -webkit-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -moz-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -ms-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -o-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: linear-gradient(top, #0D0909, #5E5A5A);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+    background-color:#2E2626;
+}
+
+
+/* hover items sin submenu*/
+#nav li:hover a.top_link span {/*	//background:url(three_1.gif) no-repeat right top;*/
+/*	    background-image: -webkit-gradient(linear, left top, left bottom, from(#0D0909), to(#5E5A5A));
+    background-image: -webkit-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -moz-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -ms-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: -o-linear-gradient(top, #0D0909, #5E5A5A);
+    background-image: linear-gradient(top, #0D0909, #5E5A5A);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);*/
+    background-color:#594D4D;
+}
+
+
+
+/* Default list styling */
+
+#nav li:hover {position:relative; z-index:200;}
+
+/*submenu de primer nivel*/
+
+/*marco de la caja de drop*/
+#nav li:hover ul.sub{	left:1px;
+	top:38px;
+	background: #FFFFFF;
+	padding:1px;
+	border:1px solid #2E2529;
+	white-space:nowrap;
+	width:170px;
+	height:auto;
+	z-index:300;
+}
+
+#nav li:hover ul.sub li{	display:block;
+	height:30px;
+	position:relative;
+	float:left;
+	width:170px;
+	font-weight:normal;
+}
+
+/*items de menu de primer nivel -hover*/
+#nav li:hover ul.sub li a{	display:block;
+	font-size:12px;
+	height:28px;
+	width:168px;
+	line-height:24px;
+	text-indent:5px;
+	color:#000000;
+	vertical-align: middle;
+	text-decoration:none;
+	border:1px solid #2E2529;
+}
+
+/*item de submenu...con submenu*/
+#nav li ul.sub li a.fly{	background:#FFFFFF url(../imagenes/arrow.png) 150px 6px no-repeat;
+	border-color:#0D0909;
+}
+
+/*item de submenu (sin submenu) hover*/
+#nav li:hover ul.sub li a:hover{	background:#0D0909;
+	color:#fff;
+	border-color:#000000;
+}
+
+/*item de submenu (con submenu) hover*/
+#nav li:hover ul.sub li a.fly:hover{	background:#0D0909 url(../imagenes/arrow_over.png) 140px 0px no-repeat;
+	color:#FFFFFF;
+}
+
+/*Letras de divisiones en submenu*/
+#nav li b {	display:block;
+	font-size:11px;
+	height:28px;
+	width:168px;
+	line-height:24px;
+	margin-bottom:3px;
+	text-indent:6px;
+	color:#0D0909;
+	border-bottom:1px solid #0D0909;
+	cursor:default;
+	border-color:#0D0909;
+}
+
+/*Submenu de segundo nivel o mas abajo*/
+#nav li:hover li:hover ul,
+#nav li:hover li:hover li:hover ul,
+#nav li:hover li:hover li:hover li:hover ul,
+#nav li:hover li:hover li:hover li:hover li:hover ul
+{left:170px; top:-4px; background: #FFFFFF; padding:3px; border:1px solid #000000; white-space:nowrap; width:170px; z-index:400; height:auto;}
+
+#nav ul,
+#nav li:hover ul ul,
+#nav li:hover li:hover ul ul,
+#nav li:hover li:hover li:hover ul ul,
+#nav li:hover li:hover li:hover li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+/*item de submenu seleccionado...es decir...se está explorando ese submenu*/
+#nav li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover li:hover li:hover a.fly
+{background:#0D0909 url(../imagenes/arrow_over.png) 140px 0px no-repeat; color:#FFFFFF; border-color:#000000;}
+
+/*item de submenu de nivel 2 o inferior que tiene submenu*/
+#nav li:hover li:hover li a.fly,
+#nav li:hover li:hover li:hover li a.fly,
+#nav li:hover li:hover li:hover li:hover li a.fly
+{background:#FFFFFF url(../imagenes/arrow.png) 150px 6px no-repeat; color:#000000; border-color:#000000;}
