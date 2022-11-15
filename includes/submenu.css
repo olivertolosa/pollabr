@@ -1,0 +1,81 @@
+.submenu {
+  height: 32px;
+  display: inline-block;
+  left:-25px;
+  position:relative
+}
+.submenu > li, .submenu:active > .active {
+  float: left;
+  position: relative;
+  margin: 0 0 4px;
+  height: 30px;
+  color: #ccc;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.9);
+  border: 1px solid #232428;
+  border-bottom-color: #1f2326;
+  background: #444;
+  background: -moz-linear-gradient(#444, #111);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+  background: -webkit-linear-gradient(#444, #111);
+  background: -o-linear-gradient(#444, #111);
+  background: -ms-linear-gradient(#444, #111);
+  background: linear-gradient(#444, #111);  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 2px #262a2e, 0 3px #1f2326, 0 4px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 2px #262a2e, 0 3px #1f2326, 0 4px 3px rgba(0, 0, 0, 0.2);
+}
+.submenu > li:hover {
+  color: #FFFFFF;
+  text-shadow: 0 1px black, 0 0 20px rgba(255, 255, 255, 0.5);
+
+}
+.submenu > li.active,
+.submenu > .active:active,
+.submenu > li:active {
+  z-index: 2;
+  margin: 1px 0 0;
+  height: 32px;
+  color: #FFFFFF;
+  text-shadow: 0 1px black;
+  background-color: #444;
+  border-color: #212425;
+  border-width: 1px 0;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), inset 0 -1px 1px rgba(0, 0, 0, 0.15), 1px 0 rgba(0, 0, 0, 0.05), -1px 0 rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), inset 0 -1px 1px rgba(0, 0, 0, 0.15), 1px 0 rgba(0, 0, 0, 0.05), -1px 0 rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.05);
+}
+.submenu > li:active {
+  z-index: 3;
+}
+.submenu > li:first-child {
+  border-left-width: 1px !important;
+  border-left-color: #212425;
+  border-radius: 5px 0 0 5px;
+}
+.submenu > li:last-child {
+  border-right-width: 1px !important;
+  border-right-color: #212425;
+  border-radius: 0 5px 5px 0;
+}
+.submenu > li + li, .submenu:active > .active + li, .submenu:active > li + .active {
+  border-left-width: 0;
+}
+.nav > .active + li,
+.nav > .active:active + li,
+.nav > li:active + li,
+.nav > li:active + .active {
+  border-left-width: 1px;
+}
+.submenu > li > a {
+  display: block;
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+}
+
+
